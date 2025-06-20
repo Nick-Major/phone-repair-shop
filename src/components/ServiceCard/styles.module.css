@@ -5,6 +5,7 @@
   background: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
 }
 
 .card:hover {
@@ -12,26 +13,26 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.title {
+.cardTitle {
   margin: 0 0 10px 0;
   color: #333;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
-.price {
+.cardPrice {
   margin: 0 0 15px 0;
   color: #d32f2f;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
-.link {
+.cardLink {
   display: inline-block;
   color: #1976d2;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
-.link:hover {
+.cardLink:hover {
   text-decoration: underline;
 }

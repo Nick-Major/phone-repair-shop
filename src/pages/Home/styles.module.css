@@ -1,22 +1,17 @@
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+.pageContainer {
+  padding: 2rem 0;
 }
 
-.title {
+.pageTitle {
   color: #333;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
+  font-size: 1.75rem;
 }
 
-.servicesList {
+.servicesGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.link {
-  text-decoration: none;
-  color: inherit;
+  gap: 1.5rem;
+  padding: 0 1rem;
 }

@@ -1,34 +1,32 @@
-.details {
+.detailsCard {
   background: white;
   border-radius: 8px;
-  padding: 25px;
+  padding: 2rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  margin: 0 auto;
 }
 
-.title {
+.detailsTitle {
   color: #333;
   margin-top: 0;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
-.price {
+.detailsPrice {
   color: #d32f2f;
   font-weight: bold;
-  font-size: 20px;
-  margin: 15px 0;
+  font-size: 1.25rem;
+  margin: 1rem 0;
 }
 
-.content {
+.detailsContent {
   border-top: 1px solid #eee;
-  padding-top: 20px;
+  padding-top: 1.25rem;
   color: #555;
   line-height: 1.6;
 }
 
-.content h3 {
+.detailsContent h3 {
   margin-top: 0;
   color: #333;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
